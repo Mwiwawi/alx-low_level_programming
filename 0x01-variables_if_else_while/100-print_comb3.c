@@ -3,7 +3,8 @@
  * main - main block
  *
  * Description: prints all possible diffenrent combination of two digits
- * the two digits must be different, 0 and 10 are considered the same combination
+ * the two digits must be different
+ * 0 and 10 are considered the same combination
  * of the two digits 0 and 1
  * print only the smallestcombination of two digits
  * numbers should be printed in ascending order
