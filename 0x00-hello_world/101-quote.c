@@ -1,12 +1,8 @@
-/**
- * File: 101-quote.c
- * Auth: Brennan D Baraban
- */
-
+#include <stdio.h>
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * main - entry point
  *
  * Description: prints Dora's quote
  *
