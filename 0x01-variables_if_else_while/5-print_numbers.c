@@ -2,7 +2,7 @@
 /**
  * main - main block
  *
- * Description: prints all single digit numbers starting 
+ * Description: prints all single digit numbers starting
  * from base 10 to 0 in a new line
  * Return: 0
  */
