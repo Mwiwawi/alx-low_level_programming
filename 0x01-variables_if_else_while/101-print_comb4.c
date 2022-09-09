@@ -6,7 +6,7 @@
  * different combinations of three digits
  * numbers must be separated by ,, followed by a space
  * the three digits must be different
- * 012, 120, 102, 021, 201, 210 are considered the same 
+ * 012, 120, 102, 021, 201, 210 are considered the same
  * combination of digits 0, 1 and 2
  * print only the smallest combination of two digits
  * numbers should be printed in ascending order, with three digits
