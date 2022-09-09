@@ -9,7 +9,6 @@
  * this program prints "programming is positive, zero, or negative
  * return: Always 0 (success)
  */
-
 int main(void)
 {
 	int n;
