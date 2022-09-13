@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - sums multiples of 3 or 5
  *
@@ -8,25 +9,18 @@
 
 int main(void)
 {
-	int start_num, end_num, total;
+	int c = 0;
+	int sum = 0;
 
-	end_num = 1024;
-	total = 0;
-
-	for (start_num = 0; start_num < end_num; start_num++)
+	while (c < 1024)
 	{
-		if ((start_num % 3 == 0) || (start_num % 5 == 0))
+		if (c % 3 == 0 || c % 5 == 0)
 		{
-			total = total + start_num;
+			sum += c;
 		}
-		else
-		{
-			continue;
-		}
+		c++;
 	}
 
-	printf("%d", total);
-	printf('\n');
-
+	printf("%i\n", sum);
 	return (0);
 }
