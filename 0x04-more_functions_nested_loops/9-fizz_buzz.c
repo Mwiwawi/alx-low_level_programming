@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- * main- entry block
+ * main - program that prints either number or
+ * fizz or buzz or fizzbuzz
  *
- * Description: program that prints either number or fizz
- * or buzz or fizzbuzz
- * 
- * Return: 0
+ *
+ * Return: returns 0
  */
 
 int main(void)
@@ -19,21 +18,21 @@ int main(void)
 		{
 			printf("FizzBuzz ");
 		}
-
+		else if ((num % 3) == 0)
+		{
+			printf("Fizz ");
+		}
 		else if ((num % 5) == 0)
 		{
-
 			if (num != 100)
 			{
 				printf("Buzz ");
 			}
-
 			else
 			{
 				printf("Buzz");
 			}
 		}
-
 		else
 		{
 			printf("%d ", num);
