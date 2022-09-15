@@ -18,4 +18,3 @@ void print_numbers(void)
 	}
 	putchar(10);
 }
-
