@@ -9,13 +9,13 @@
  * On success: returns no error
  */
 
-void _pus(char *str)
+void _puts(char *str)
 {
 	int i = 0;
 
 	while (*(str + i) != '\0')
 	{
-		putchar(*(str + i)0;
+		putchar(*(str + i));
 				i++;
 				}
 				putchar(10);
