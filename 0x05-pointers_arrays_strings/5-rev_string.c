@@ -20,12 +20,12 @@ void rev_string(char *s)
 	}
 }
 
-	/**
-	 * _strlen - retuens the length of a string
-	 * @s: string
-	 *
-	 * Return: the lenght of a given string
-	 */
+/**
+ * _strlen - returns the length of a string
+ * @s: string
+ *
+ * Return: the lenght of a given string
+ */
 
 	int _strlen(char *s)
 	{
